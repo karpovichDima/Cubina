@@ -7,18 +7,12 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody rb;
     public float forwardForce = 500f;
     public float sidewayForce = 500f;
+    private Vector3 acceleration;
 
 	void FixedUpdate () {
-
-	    rb.AddForce(0, 0, forwardForce * Time.deltaTime);
-        if (Input.GetKey("d"))
-	    {
-	        rb.AddForce(sidewayForce * Time.deltaTime, 0, 0 );
-        }
-
-	    if (Input.GetKey("a"))
-	    {
-	        rb.AddForce(-sidewayForce * Time.deltaTime, 0, 0);
-	    }
+	    acceleration = Input.acceleration;
+        rb.AddForce(0, 0, forwardForce * Time.deltaTime);
+        rb.AddForce(1000 * acceleration.x * Time.deltaTime, 0, 0 );
+	    
     }
 }
