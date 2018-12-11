@@ -62,7 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FollowPlayer.cs" />
+    <Compile Include="Assets\PlayerCollision.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\PlayerRestart.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Karpo/Desktop/Unity'S/ProjectQuadro/Cubina/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
