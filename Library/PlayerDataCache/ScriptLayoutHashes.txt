@@ -118,7 +118,8 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 50667894c33b478dc38ae949114bb1e8 XiaomiSupport.dll:AppStoresSupport.AppStoreSettings
 93dc25819af1979f58e0e14be472006d Assembly-CSharp.dll:.Score
-aa9c443a38224c8944077b9f197faa61 Assembly-CSharp.dll:.GameManager
+25e45a578f6fa9caebc133d0495e1428 Assembly-CSharp.dll:.GameManager
+d27699dfc30c2a21439bbef1ad43c8ea Assembly-CSharp.dll:.EndTrigger
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
