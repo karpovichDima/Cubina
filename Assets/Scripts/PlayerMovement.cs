@@ -16,11 +16,7 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(2000 * acceleration.x * Time.deltaTime, 0, 0 );
         Debug.Log("//// acceleration.x = " + acceleration.x + " ////");
 
-        if (rb.position.z > 150)
-        {
-            FindObjectOfType<GameManager>().EndGame();
-        }
-        else if (rb.position.y < 0)
+        if (rb.position.y < 0)
         {
             FindObjectOfType<GameManager>().EndGame();
         }
