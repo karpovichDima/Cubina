@@ -6,6 +6,11 @@ public class GameManager : MonoBehaviour
     private bool _gameHasEnded = false;
     public float _restartDelay = 2f;
 
+    public void CompleteLevel()
+    {
+        Debug.Log("//// LEVEL_WON ////");
+    }
+
     public void EndGame()
     {
         if (!_gameHasEnded)
